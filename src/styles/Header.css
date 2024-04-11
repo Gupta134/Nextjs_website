@@ -1,0 +1,52 @@
+
+
+.header_container{
+    width: 100%;
+    background-color: #333333;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+   
+    
+
+ } 
+
+ .header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .logo{  
+    
+   height: 100%;
+   width: auto;
+   object-fit: cover;
+   margin:20px;
+
+ }
+ .govtIndia{
+    color: #cccccc;
+    font-size: 11px;
+    font-style:sans-serif;
+    font-weight: 400;
+
+ }
+ 
+ #header_UL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .header_skip-content_list{
+    list-style-type: none;
+    padding: 50px;
+    color: #cccccc;
+    font-size: 12px;
+    font-style:sans-serif;
+ }
+ .header_skip-content_list:hover{
+   cursor: pointer;
+ }
